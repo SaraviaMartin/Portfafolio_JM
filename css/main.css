@@ -118,9 +118,17 @@ p {
 
 .card-img-top {
   object-fit: contain;
+  height: 200px;
 }
-
+a {
+  color: #EEEEEE;
+}
+a:hover {
+  color: #FFD369;
+}
 /**/
+
+
 
 
 
