@@ -1,279 +1,216 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<!doctype html>
+<html class="no-js" lang="">
 
-    <title>I'm Juan Martin</title>
+<head>
+  <meta charset="utf-8">
+  <title>I'm Juan Martin</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
 
-    <!-- Add custom CSS here -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  </head>
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="icon" type="image/jpg" href="./img/favicon.ico"/>
+  <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
 
-  <body>
+  <meta name="theme-color" content="#fafafa">
+</head>
 
-    <!-- Side Menu -->
-    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <div id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-        <li class="sidebar-brand"><a href="http://startbootstrap.com">Menu</a></li>
-        <li><a href="#top">Inicio</a></li>
-        <li><a href="#about">Sobre mi</a></li>
-        <li><a href="#services">Servicios</a></li>
-        <li><a href="#portfolio">Portafolio</a></li>
-        <li><a href="#contact">Contacto</a></li>
-      </ul>
+<body>
+  <!--Header-->
+  <header>
+    <div class="header">
+      <a href="#default" class="logo">JM</a>
+      <div class="header-right">
+        <a class="active" href="#home">INICIO</a>
+        <a href="#contact">SOBRE MI</a>
+        <a href="#about">PORTFOLIO</a>
+        <a href="#about">BLOG</a>
+        <a href="#about">CONTACTO</a>
+      </div>
     </div>
-    <!-- /Side Menu -->
+  </header>
   
-    <!-- Full Page Image Header Area -->
-    <div id="top" class="header">
-      <div class="vert-text">
-        <h1>Juan Martin</h1>
-        <h3>FRONT-END DEVELOPER </h3>
-        <a href="#about" class="btn btn-default btn-lg">Ver mas</a>
-      </div>
-    </div>
-    <!-- /Full Page Image Header Area -->
-  
-    <!-- Intro -->
-    <div id="about" class="intro">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center">
-            <h2>Escritor. Lector. Googler.</h2>
-            <p class="lead">¡Hola! </strong> 👋 Este es mi portafolio, y refleja mi sueño por ser un profesional.</p>
-            <p class="lead">Comence este camino en marzo de 2021 y no he parado desde entonces.
-
-              Me estoy especializando en el desarrollo Front-end, diseñando mucho con CSS y aspirando a dominar JS. Me gusta buscar soluciones, y he descubierto que la comunicacion resuelve la mayor parte de nuestros problemas. Quiero darle vida a todas las ideas que tengo, y se que seran posibles. Hasta el momento he recorrido este camino solo, pero se que no tardara en llegar un equipo con quien compartir esta aventura.
-              
-              Busco ser lo mas ordenado y organizado posible en mi codigo para dar buenos resultados.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /Intro -->
-  
-    <!-- Services -->
-    <div id="services" class="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-md-offset-4 text-center">
-            <h2>Mis habilidades</h2>
-            <hr>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-2 col-md-offset-2 text-center">
-            <div class="service-item">
-              <iconify-icon icon="vscode-icons:file-type-html"></iconify-icon>
-              <h4>Problem Solving</h4>
-              <p>Need to know how magnets work? Our problem solving solutions team can help you identify problems and conduct exploratory research.</p>
-            </div>
-          </div>
-          <div class="col-md-2 text-center">
-            <div class="service-item">
-              <iconify-icon icon="vscode-icons:file-type-css"></iconify-icon>
-              <h4>Problem Solving</h4>
-              <p>Need to know how magnets work? Our problem solving solutions team can help you identify problems and conduct exploratory research.</p>
-            </div>
-          </div>
-          <div class="col-md-2 text-center">
-            <div class="service-item">
-              <iconify-icon icon="logos:javascript"></iconify-icon>
-              <h4>Problem Solving</h4>
-              <p>Need to know how magnets work? Our problem solving solutions team can help you identify problems and conduct exploratory research.</p>
-            </div>
-          </div>
-          <div class="col-md-2 text-center">
-            <div class="service-item">
-              <iconify-icon icon="logos:bootstrap" width="140" height="140"></iconify-icon>
-              <h4>Problem Solving</h4>
-              <p>Need to know how magnets work? Our problem solving solutions team can help you identify problems and conduct exploratory research.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="services" class="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-md-offset-4 text-center">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-2 col-md-offset-2 text-center">
-            <div class="service-item">
-              <iconify-icon icon="vscode-icons:file-type-sass" width="140" height="140"></iconify-icon>
-              <h4>Problem Solving</h4>
-              <p>Need to know how magnets work? Our problem solving solutions team can help you identify problems and conduct exploratory research.</p>
-            </div>
-          </div>
-          <div class="col-md-2 text-center">
-            <div class="service-item">
-              <iconify-icon icon="logos:figma" width="140" height="140"></iconify-icon>
-              <h4>Problem Solving</h4>
-              <p>Need to know how magnets work? Our problem solving solutions team can help you identify problems and conduct exploratory research.</p>
-            </div>
-          </div>
-          <div class="col-md-2 text-center">
-            <div class="service-item">
-              <iconify-icon icon="logos:google-ads" width="140" height="140"></iconify-icon>
-              <h4>Blacksmithing</h4>
-              <p>Planning a time travel trip to the middle ages? Preserve the space time continuum by blending in with period accurate armor and weapons.</p>
-            </div>
-          </div>
-          <div class="col-md-2 text-center">
-            <div class="service-item">
-              <iconify-icon icon="logos:google-analytics" width="140" height="140"></iconify-icon>
-              <h4>Pencil Sharpening</h4>
-              <p>We've been voted the best pencil sharpening service for 10 consecutive years. If you have a pencil that feels dull, we'll get it sharp!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /Services -->
-
-    <!-- Callout -->
-    <div class="callout">
-      <div class="vert-text">
-        <h1>Mi sueño es ser un desarrollador profesional.</h1>
-      </div>
-    </div>
-    <!-- /Callout -->
-
-    <!-- Portfolio -->
-    <div id="portfolio" class="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-md-offset-4 text-center">
-            <h2>Mi trabajo</h2>
-            <hr>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-md-offset-2 text-center">
-            <div class="portfolio-item">
-              <a href="https://juan-saravia-da-silva.github.io/nueva_pagina_sofactory_1.0/"><img class="img-portfolio img-responsive" src="./img/LETRAS BLANCA ABAJO Y EN SO.png"></a>
-              <h4>Sofactory</h4>
-            </div>
-          </div>
-          <div class="col-md-4 text-center">
-            <div class="portfolio-item">
-              <a href="#"><img class="img-portfolio img-responsive" src="./img/venus-joyas.png"></a>
-              <h4>Tienda de Joyas</h4>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-md-offset-2 text-center">
-            <div class="portfolio-item">
-              <a href="#"><img class="img-portfolio img-responsive" src="./img/tattoo-2.png"></a>
-              <h4>Tienda de tatuajes</h4>
-            </div>
-          </div>
-          <div class="col-md-4 text-center">
-            <div class="portfolio-item">
-              <a href="https://juan-saravia-da-silva.github.io/Tattoo-Studio/"><img class="img-portfolio img-responsive" src="./img/to-do2.png"></a>
-              <h4>Lista de tareas(ToDo)</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /Portfolio -->
-
-    <!-- Call to Action -->
-    <div class="call-to-action">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center">
-            <h3>Los botones de abajo son imposibles de resistirse.</h3>
-            <a href="#" class="btn btn-lg btn-default">Mira mi blog!</a>
-            <a href="#" class="btn btn-lg btn-primary">Recursos gratis!</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /Call to Action -->
-
-    <!-- Map -->
-    <div id="contact" class="map">
-      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3601.0179721587!2d-64.96587768533288!3d-25.504447142082533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd95f377796425af2!2zMjXCsDMwJzE2LjAiUyA2NMKwNTcnNDkuMyJX!5e0!3m2!1ses!2sar!4v1672799629037!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <!-- /Map -->
+  <!--Hero Image-->
+  <div class="heroContainer">
     
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center">
-            <ul class="list-inline">
-              <li><i class="fa fa-facebook fa-3x"></i></li>
-              <li><i class="fa fa-twitter fa-3x"></i></li>
-              <li><i class="fa fa-github fa-3x"></i></li>
-              <li><i class="fa fa-instagram fa-3x"></i></li>
-              <li><i class="fa fa-linkedin fa-3x"></i></li>
-            </ul>
-            <div class="top-scroll">
-              <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
-            </div>
-            <hr>
-            
-            <p>METAN, SALTA - ARGENTINA</p>
-            <p>Email: <a href="">saraviamartin16@gmail.com</a></<p></p>
-            <p>Copyright &copy;  2023</p>
-          </div>
+    <div class="containerImg">
+      <div class="avatarImg-container">
+        <img class="avatarImg" src="tile.png" alt="Avatar">
+        <h1>
+          <span>Juan</span>
+          <span>Martin</span>
+        </h1>
+        <h2>Web Developer</h2>
+        <h3>Escritor. Lector. Googler.</h3>
+      </div>   
+    </div>
+  </div>
+
+  <!--ABOUT CONTENT-->
+
+  <div class="about">
+    <div class="about">
+      <h2>Soy un desarrollador Front-end</h2>
+      <div class="aboutContent">
+        <p><strong> ¡Hola! </strong> 👋 Este es mi portafolio, y refleja mi sueño por ser un profesional.</p>
+        <p>Comence este camino en marzo de 2021 y no he parado desde entonces.</p>
+        <p>
+          Me estoy especializando en el desarrollo Front-end, diseñando mucho con CSS y aspirando a dominar JS.
+          Me gusta buscar soluciones, y he descubierto que la comunicacion resuelve la mayor parte de nuestros problemas.
+          Quiero darle vida a todas las ideas que tengo, y se que seran posibles. Hasta el momento he recorrido este camino
+          solo, pero se que no tardara en llegar un equipo con quien compartir esta aventura.
+        </p>
+        <p>Busco ser lo mas ordenado y organizado posible en mi codigo para dar buenos resultados.</p>
+      </div>
+      <br>
+      <div class="tecnologies">
+        <h2>Estos son los proyectos en los que he trabajado:</h2>
+      </div>
+  </div>
+  
+  
+  <hr>
+
+  <h2>PORTFOLIO</h2>
+  <!--<div class="cards">
+    <div class="card" style="width: 18rem;">
+      <img src="./tile.png" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Venus Joyas</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="https://juan-saravia-da-silva.github.io/paginavenusjoyas-juansaravia/" class="btn btn-primary">Ir al sitio</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./tile.png" alt="">
+      <div class="card-body">
+        <h5 class="card-title">SoFactory</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="https://juan-saravia-da-silva.github.io/nueva_pagina_sofactory_1.0/" class="btn btn-primary">Ir al sitio</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./tile.png" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Otros trabajos</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Ir al sitio</a>
+      </div>
+    </div>
+  </div>-->
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/LETRAS BLANCA ABAJO Y EN SO.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><a href="https://juan-saravia-da-silva.github.io/nueva_pagina_sofactory_1.0/">SoFactory</a></h5>
+          <p class="card-text">Este es un proyecto que tiene como fundamento principal brindar soluciones a traves de la evolucion digital. Hecha con Javascript, HTML y CSS</p>
         </div>
       </div>
-    </footer>
-    <!-- /Footer -->
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/venus-joyas.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><a href="https://juan-saravia-da-silva.github.io/paginavenusjoyas-juansaravia/">Venus Joyas</a></h5>
+          <p class="card-text">Mi primer sitio web. Para un emprendimiento que teniamos con mi pareja. Hecha con HTML, CSS, SCSS, jquery</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/tattoo-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><a href="https://juan-saravia-da-silva.github.io/Tattoo-Studio/">Tattoo Studio/prototype</a></h5>
+          <p class="card-text">Demo de una pagina para estudios de tatuajes. Hecha con HTML Y CSS.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/To-Do.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><a href="https://juan-saravia-da-silva.github.io/ToDo-Js/">Lista de Tareas</a></h5>
+          <p class="card-text">Lista de Tareas hecha con Javascript, HTML y CSS. </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
+  <hr>
+  
+  <!--FOOTER-->
+  
+  <footer class="footerContainer">
+    <p>METAN, SALTA - ARGENTINA</p>
+    <p>Email: <a href="">saraviamartin16@gmail.com</a></<p></p>
+    <H3>Mis redes:</H3>
+    <section class="icons">
+      <!-- Facebook -->
+      <a href=""><img class="icon" src="./img/facebook-circle-logo-24.png" alt="">Facebook</a>
 
-    <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
-    <script>
-        $("#menu-close").click(function(e) {
-            e.preventDefault();
-            $("#sidebar-wrapper").toggleClass("active");
-        });
-    </script>
-    <script>
-        $("#menu-toggle").click(function(e) {
-            e.preventDefault();
-            $("#sidebar-wrapper").toggleClass("active");
-        });
-    </script>
-    <script>
-      $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-            || location.hostname == this.hostname) {
+      <!-- Instagram -->
+      <a href=""><img class="icon" src="./img/instagram-logo-24.png" alt="">Instagram</a>
 
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-            if (target.length) {
-              $('html,body').animate({
-                scrollTop: target.offset().top
-              }, 1000);
-              return false;
-            }
-          }
-        });
-      });
-    </script>
-    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-  </body>
+      <!-- Linkedin -->
+      <a href=""><img class="icon" src="./img/linkedin-logo-24.png" alt="">Linkedin</a>
+
+      <!-- Github -->
+      <a href=""><img class="icon" src="./img/github-logo-24.png" alt="">Github</a>
+    </section>
+  </footer>
+
+
+
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3">
+    © 2022 Copyright
+    
+  </div>
+  <!-- Copyright -->
+</footer>
+  
+
+  
+  
+
+  
+
+
+  
+  
+  <!-- Add your site or application content here -->
+  
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
 
 </html>
