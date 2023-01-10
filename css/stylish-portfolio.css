@@ -128,35 +128,14 @@ body {
 
 .services {
   background: #7fbbda;
-  padding: 50px 0;
-  color: #ffffff;
 }
 
-.service-item {
-  margin-bottom: 15px;
+.service-item:hover{
+  transform: scale(1.2);
+  transition: 1s;
 }
 
-i.service-icon {
-  border: 3px solid #ffffff;
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 56px;
-  width: 140px;
-  height: 140px;
-  line-height: 136px;
-  vertical-align: middle; 
-  text-align: center;
-}
-iconify-icon{
-  margin-left: 25px;
-  margin-right: auto;
-  font-size: 150px;
-  width: 140px;
-  height: 140px;
-  line-height: 136px;
-  vertical-align:super; 
-  text-align: center;
-}
+
 
 /* Callout */
 
